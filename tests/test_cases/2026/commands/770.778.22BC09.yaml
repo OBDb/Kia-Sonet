@@ -1,0 +1,44 @@
+command_id: 770.778.22BC09
+test_cases:
+- expected_values:
+    SONET_HL_HIGH: 0
+    SONET_HL_LOW: 0
+  response: |-
+    778100B62BC09002003
+    77821CF00000030AAAA
+- expected_values:
+    SONET_HL_HIGH: 0
+    SONET_HL_LOW: 0
+  response: |-
+    778100B62BC09002003
+    77821CF0000C0C0AAAA
+- expected_values:
+    SONET_HL_HIGH: 0
+    SONET_HL_LOW: 1
+  response: |-
+    778100B62BC09002003
+    77821CF0000C0C3AAAA
+- expected_values:
+    SONET_HL_HIGH: 0
+    SONET_HL_LOW: 0
+  response: |-
+    778100B62BC09002003
+    77821CF00040000AAAA
+- expected_values:
+    SONET_HL_HIGH: 0
+    SONET_HL_LOW: 0
+  response: |-
+    778100B62BC09002003
+    77821CF00040030AAAA
+- expected_values:
+    SONET_HL_HIGH: 0
+    SONET_HL_LOW: 0
+  response: |-
+    778100B62BC09002003
+    77821CF0004C0C0AAAA
+- expected_values:
+    SONET_HL_HIGH: 0
+    SONET_HL_LOW: 1
+  response: |-
+    778100B62BC09002003
+    77821CF0004C0C3AAAA

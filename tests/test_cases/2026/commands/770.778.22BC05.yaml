@@ -1,0 +1,28 @@
+command_id: 770.778.22BC05
+test_cases:
+- expected_values:
+    SONET_HAZARD_SW: 0
+  response: |-
+    778100B62BC052F1124
+    778210000000000AAAA
+- expected_values:
+    SONET_HAZARD_SW: 0
+    SONET_HL_SW: 1
+  response: |-
+    778100B62BC052F1124
+    778210000000400AAAA
+- expected_values:
+    SONET_HAZARD_SW: 0
+  response: |-
+    778100B62BC052F1124
+    778210000800000AAAA
+- expected_values:
+    SONET_HAZARD_SW: 0
+  response: |-
+    778100B62BC052F1124
+    778210000880000AAAA
+- expected_values:
+    SONET_HAZARD_SW: 240
+  response: |-
+    778100B62BC052F1124
+    7782100F0000000AAAA

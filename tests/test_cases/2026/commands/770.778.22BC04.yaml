@@ -1,0 +1,32 @@
+command_id: 770.778.22BC04
+test_cases:
+- expected_values:
+    SONET_BELT_RL: 0
+    SONET_BELT_RM: 0
+    SONET_BELT_RR: 0
+    SONET_GEAR_R: 0
+    SONET_LOCK_FL: 0
+    SONET_LOCK_FR: 0
+  response: |-
+    778100B62BC04F03370
+    778212001000000AAAA
+- expected_values:
+    SONET_BELT_RL: 0
+    SONET_BELT_RM: 0
+    SONET_BELT_RR: 0
+    SONET_GEAR_R: 0
+    SONET_LOCK_FL: 0
+    SONET_LOCK_FR: 1
+  response: |-
+    778100B62BC04F03370
+    778212005000000AAAA
+- expected_values:
+    SONET_BELT_RL: 0
+    SONET_BELT_RM: 0
+    SONET_BELT_RR: 0
+    SONET_GEAR_R: 0
+    SONET_LOCK_FL: 1
+    SONET_LOCK_FR: 1
+  response: |-
+    778100B62BC04F03370
+    77821200D000000AAAA
