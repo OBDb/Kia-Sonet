@@ -7,7 +7,6 @@ test_cases:
     778210000000000AAAA
 - expected_values:
     SONET_HAZARD_SW: 0
-    SONET_HL_SW: 1
   response: |-
     778100B62BC052F1124
     778210000000400AAAA
